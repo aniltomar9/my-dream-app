@@ -1,0 +1,37 @@
+[{
+        "name": "Closing Announcement Mon-Thu",
+        "type": "Before Closing",
+        "file": "3",
+        "action": "Mon-Thu"
+    },
+    {
+        "name": "Closing Thu",
+        "type": "Before Closing",
+        "file": "3",
+        "action": "Mon-Thu"
+    },
+    {
+        "name": "Announcement",
+        "type": "Before Closing",
+        "file": "3",
+        "action": "Mon-Thu"
+    },
+    {
+        "name": "Closing Mon-Thu",
+        "type": "Before Closing",
+        "file": "3",
+        "action": "Mon-Thu"
+    },
+    {
+        "name": "Mon-Thu",
+        "type": "Before Closing",
+        "file": "3",
+        "action": "<p>Mon-Thu</p>"
+    },
+    {
+        "name": "Announcement Mon-Thu",
+        "type": "Before Closing",
+        "file": "3",
+        "action": "All Day "
+    }
+]

@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col py-12">
+            <table class="table caption-top">
+                <caption>List of users</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">NAME</th>
+                        <th scope="col">ANNOUNCEMNT TYPE</th>
+                        <th scope="col">AUDIO FILES</th>
+                        <th scope="col">APPLYTO</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let announcement of announcements">
+                        <td>{{announcement.name}}</td>
+                        <td>{{announcement.type}}</td>
+                        <td>{{announcement.file}}</td>
+                        <td ng-bind-html>{{announcement.action}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
